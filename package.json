@@ -1,0 +1,16 @@
+{
+  "name": "digging",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test",
+    "lint": "eslint . --ext ts,tsx --fix --report-unused-disable-directives --max-warnings 0"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1"
+  },
+  "dependencies": {
+    "surrealdb": "^0.0.1-beta.4"
+  }
+}
